@@ -1,0 +1,303 @@
+@media screen and (min-width : 769px) and (max-width : 801px){
+  body {
+     min-width: 100%;
+  }
+  .obolochka {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .header {
+    width: 100%;
+  }
+  .telo {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+    .logo {
+    top: 0;
+    left: -195px;
+  }
+  .NivoSzakiSlider {
+    width: 92%;
+  }
+  .NivoSzakiSlider .nivoSlider {
+    width: 100%;
+  }
+  .theme-default .nivoSlider img {
+    width: 100%;
+  }
+  .link_left {
+    width: 92%;
+  }
+  .obch-str {
+    display: none;
+  }
+    
+  .left-blocks {
+    width: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+  }
+  .right-blocks {
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .menu-top {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 768px){
+  body {
+     min-width: 100%;
+  }
+  .obolochka {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .header {
+    width: 100%;
+  }
+  .telo {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+    .logo {
+    top: 0;
+    left: -280px;
+  }
+  .NivoSzakiSlider {
+    width: 91%;
+  }
+  .NivoSzakiSlider .nivoSlider {
+    width: 100%;
+  }
+  .theme-default .nivoSlider img {
+    width: 150%;
+  }
+    
+  .link_left {
+    width: 80%;
+  }
+  .obch-str {
+    display: none;
+  }
+    
+  .left-blocks {
+    width: 80%;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  
+  .right-blocks {
+    width: 80%;
+    margin-left: 35px;
+    margin-top: 50px;
+  }
+  .menu-top {
+    margin-right: -15px;
+  }
+   
+}
+
+@media screen and (min-width : 481px) and (max-width : 600px){
+  body {
+     min-width: 100%;
+  }
+  .obolochka {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .header {
+    width: 100%;
+  }
+  .telo {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+    .logo {
+    top: 0;
+    left: -327px;
+  }
+  .NivoSzakiSlider {
+    width: 88%;
+  }
+  .NivoSzakiSlider .nivoSlider {
+    width: 100%;
+  }
+  .theme-default .nivoSlider img {
+    width: 100%;
+  }
+  .link_left {
+    width: 89%;
+  }
+  .obch-str {
+    display: none;
+  }
+    
+  .left-blocks {
+    width: 77%;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  
+  .right-blocks {
+    width: 77%;
+    margin-left: 35px;
+    margin-top: 50px;
+  }
+ .menu-top {
+    margin-right: -20px;
+  }
+ 
+}
+
+@media screen and (min-width : 408px) and (max-width : 480px){
+  body {
+     min-width: 100%;
+  }
+  .obolochka {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .header {
+    width: 100%;
+  }
+  .telo {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+    .logo {
+    top: 10px;
+    left: -245px;
+  }
+  .logo img {
+    width: 900px;
+  }
+  .NivoSzakiSlider {
+    width: 87%;
+    top: 80px;
+  }
+  .NivoSzakiSlider .nivoSlider {
+    width: 100%;
+  }
+  .theme-default .nivoSlider img {
+    width: 100%;
+  }
+  .link_left {
+    width: 80%;
+  }
+  .obch-str {
+    display: none;
+  }
+    
+  .left-blocks {
+    width: 77%;
+    margin-left: 27px;
+    margin-right: 27px;
+  }
+  
+  .right-blocks {
+    width: 77%;
+    margin-left: 27px;
+    margin-top: 50px;
+  }
+  .menu-top {
+    position: relative;
+    right: 0px;
+  }
+  .blocks-tit {
+    font-size: 20px;
+    top: 0;
+    right: 5px;
+  }
+  .item-page img {
+    width: 100%;
+  }
+  #mapDiv{
+    display:none;
+  }
+}
+
+@media screen and (min-width : 241px) and (max-width : 407px){
+  body {
+     min-width: 100%;
+  }
+  .obolochka {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .header {
+    width: 100%;
+  }
+  .telo {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+    .logo {
+    top: 40px;
+    left: -172px;
+  }
+  .logo img {
+    width: 650px;
+  }
+  .NivoSzakiSlider {
+    width: 83%;
+    top: 100px;
+  }
+  .NivoSzakiSlider .nivoSlider {
+    width: 100%;
+  }
+  .theme-default .nivoSlider img {
+    width: 100%;
+  }
+  .link_left {
+    width: 80%;
+  }
+  .obch-str {
+    display: none;
+  }
+    
+  .left-blocks {
+    width: 70%;
+    margin-left: 27px;
+    margin-right: 27px;
+  }
+  
+  .right-blocks {
+    width: 70%;
+    margin-left: 27px;
+    margin-top: 50px;
+  }
+  .menu-top {
+    position: relative;
+    right: 41px;
+  }
+  .blocks-tit {
+    font-size: 20px;
+    top: 0;
+    right: 5px;
+  }
+  .item-page img {
+    width: 100%;
+  }
+  table tr td iframe {
+    display: none;
+  }
+  tbody tr td p {
+    width: 85%;
+  }
+  
+}
