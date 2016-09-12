@@ -14,6 +14,7 @@ defined('_JEXEC') or die;
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"  type="text/javascript"></script>
     <script src="/media/system/js/hamburger.js" type="text/javascript"></script>
+    <script src="/media/system/js/pushy.js" type="text/javascript"></script>
     <script type="text/javascript">
       function appear() {
         if(op < 1) {
@@ -131,6 +132,11 @@ defined('_JEXEC') or die;
           </table>
 
           <div class="top-menu">
+          <div class="vertical_button">
+          <p>Меню</p>
+          <button class="hamburger_vertical">&#9776;</button>
+	  <button class="cross_vertical">&#735;</button>
+          </div>
           <div class="head_button">
           <p>Меню</p>
           <button class="hamburger">&#9776;</button>

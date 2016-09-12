@@ -60,7 +60,7 @@
     width: 100%;
   }
   .NivoSzakiSlider .nivoSlider {
-    width: 90%;
+    width: 90% !important;
     float: left;
     margin-bottom: 55px !important;
   }
@@ -82,13 +82,34 @@
   .custom_adress {
     width: 33%;
   }
+  .obolochka {
+    overflow-y: hidden;
+  }
+  .telo {
+    padding-right: 0px;
+  }
+  .menu-top {
+    display: table-row;
+    list-style-type: none;
+    max-width: 100%;
+    min-width: 100%;
+}
   
   
-/*начало стилей гамбургера*/
-.head_button{
-	width:100%; 
-	height:50px; 
-	line-height:50px;
+/*начало стилей гамбургера горизотнтального*/
+.head_button {
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    float: right;
+    display:block;
+}
+.vertical_button {
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    display:block;
 }
 .hamburger{
   background:none;
@@ -110,6 +131,36 @@
   position:absolute;
   top:0px;
   right:0;
+  padding:0px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.hamburger_vertical{
+  background:none;
+  position:absolute;
+  top:0;
+  left:40px;
+  line-height:45px;
+  padding:0px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross_vertical{
+  background:none;
+  position:absolute;
+  top:0px;
+  left:40px;
   padding:0px 15px 0px 15px;
   color:#fff;
   border:0;
@@ -146,13 +197,194 @@ menu-top > li > span > ul > li.active, .menu-top > li > span > ul > li:hover {
 }
 .head_button p {
     float: right;
-    right: 7%;
+    right: 45px;
     position: relative;
     color: white;
     bottom: 5px;
+    z-index: 10;
 }
-  .head_button{
-   display:block;
-  } 
-  /*конец стилей гамбургера*/
+.vertical_button p {
+    float: left;
+    left: 10px;
+    position: relative;
+    color: white;
+    bottom: 5px;
+    z-index: 10;
+}
+  
+  /*конец стилей гамбургера горизотнтального*/
+  
+  
+  
+  /*начало стилей гамбургера вертикального*/
+  /*! Pushy - v1.0.0 - 2016-3-1
+* Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
+* https://github.com/christophery/pushy/
+* by Christopher Yee */
+/* Menu Appearance */
+.left-menu {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  top: 0;
+  z-index: 9999;
+  overflow: auto;
+  visibility: hidden;
+  -webkit-overflow-scrolling: touch;
+  /* enables momentum scrolling in iOS overflow elements */
+}
+.left-menu a {
+  display: block;
+  color: #b3b3b1;
+  padding: 15px 30px;
+  text-decoration: none;
+  outline: 0;
+}
+.left-menu a:hover {
+  color: #FFF;
+}
+.left-menu ul:first-child {
+  margin-top: 10px;
+}
+
+/* Menu Movement */
+.left-menu-left {
+  -webkit-transform: translate3d(-200px, 0, 0);
+  -ms-transform: translate3d(-200px, 0, 0);
+  transform: translate3d(-200px, 0, 0);
+}
+
+.left-menu-open-left #container,
+.left-menu-open-left .push {
+  -webkit-transform: translate3d(200px, 0, 0);
+  -ms-transform: translate3d(200px, 0, 0);
+  transform: translate3d(200px, 0, 0);
+}
+
+.left-menu-right {
+  -webkit-transform: translate3d(200px, 0, 0);
+  -ms-transform: translate3d(200px, 0, 0);
+  transform: translate3d(200px, 0, 0);
+}
+
+.left-menu-open-right #container,
+.left-menu-open-right .push {
+  -webkit-transform: translate3d(-200px, 0, 0);
+  -ms-transform: translate3d(-200px, 0, 0);
+  transform: translate3d(-200px, 0, 0);
+}
+
+.left-menu-open-left .left-menu,
+.left-menu-open-right .left-menu {
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* Menu Transitions */
+#container,
+.left-menu,
+.push {
+  transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+}
+
+/* Site Overlay */
+
+
+.left-menu-open-left .kontentik,
+.left-menu-open-right .kontentik {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9998;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-animation: fade 500ms;
+  animation: fade 500ms;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Submenu Appearance */
+.left-menu-submenu {
+  /* Submenu Icon */
+}
+.left-menu-submenu ul {
+  padding-left: 15px;
+  transition: max-height 0.2s ease-in-out;
+}
+.left-menu-submenu ul .left-menu-link {
+  transition: opacity 0.2s ease-in-out;
+}
+.left-menu-submenu > a {
+  position: relative;
+}
+.left-menu-submenu > a::after {
+  content: '';
+  display: block;
+  height: 11px;
+  width: 8px;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  background: url("../img/arrow.svg") no-repeat;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transition: transform 0.2s;
+}
+
+/* Submenu Movement */
+.left-menu-submenu-closed ul {
+  max-height: 0;
+  overflow: hidden;
+}
+.left-menu-submenu-closed .left-menu-link {
+  opacity: 0;
+}
+
+.left-menu-submenu-open {
+  /* Submenu Icon */
+}
+.left-menu-submenu-open ul {
+  max-height: 1000px;
+}
+.left-menu-submenu-open .left-menu-link {
+  opacity: 1;
+}
+.left-menu-submenu-open a::after {
+  -webkit-transform: translateY(-50%) rotate(90deg);
+  -ms-transform: translateY(-50%) rotate(90deg);
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.no-csstransforms3d .left-menu-submenu-closed ul {
+  max-height: none;
+  display: none;
+}
+.vertical_button{
+  display:block;
+}
+
+/*# sourceMappingURL=pushy.css.map */
+
+  
+  
+  /*конец стилей гамбургера вертикального*/
 }
