@@ -2,9 +2,8 @@
     // Returns width of browser viewport
   var browser = $(window).width();
     
-  if (browser < 768){
   $( ".cross" ).hide();
-  $( ".menu-top" ).hide();
+  //$( ".menu-top" ).hide();
   $( ".hamburger" ).click(function() {
   $( ".menu-top" ).slideToggle( "slow", function() {
   $( ".hamburger" ).hide();
@@ -24,7 +23,6 @@
   $( ".vertical_button" ).show();
   });
   });
-  }
   });
     
   

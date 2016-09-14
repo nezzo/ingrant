@@ -133,14 +133,14 @@ defined('_JEXEC') or die;
 
           <div class="top-menu">
           <div class="vertical_button">
-          <p>Меню</p>
+          <p>Строительство</p>
           <button class="hamburger_vertical">&#9776;</button>
-	  <button class="cross_vertical">&#735;</button>
+	  <button class="cross_vertical">&#215;</button>
           </div>
           <div class="head_button">
           <p>Меню</p>
           <button class="hamburger">&#9776;</button>
-	  <button class="cross">&#735;</button>
+	  <button class="cross">&#215;</button>
 	  </div>
             <jdoc:include type="modules" name="position-6" />
             <div class="clear"></div>
