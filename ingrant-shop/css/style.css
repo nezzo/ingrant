@@ -860,11 +860,12 @@ margin: 0 auto;
   margin-left: 6px;
     width: 165px;
 }
-@media screen and (max-width: 1024px) {
+/*не понятно зачем поставили  скрывани блока
+ * @media screen and (max-width: 1024px) {
   .right-td {
     display:none;
   }
-}
+}*/
 .browse-view .PricesalesPrice .PricesalesPrice {
   color: #B22A2A!important;
   font-size: 18px!important;
@@ -1428,7 +1429,7 @@ li.item-443 {
   text-align: center;
 }
 
-@media screen and (max-width: 1268px) {
+@media screen and (min-width : 802px) and  (max-width: 1268px) {
   .header {
     width:1268px!important;
   }

@@ -6,8 +6,14 @@ defined('_JEXEC') or die;
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>" >
   <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
     <jdoc:include type="head" />
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/media.css" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"  type="text/javascript"></script>
+    <script src="/media/system/js/hamburger.js" type="text/javascript"></script>
+    <script src="/media/system/js/pushy.js" type="text/javascript"></script>
+    
     <?php
       $lang =& JFactory::getLanguage();
       $yaz = $lang->getTag();
@@ -722,9 +728,15 @@ if($id==575) {?>
 
     <div class="telo">
          <div class="top-menu">
+         <div class="head_button">
+          <p>Меню</p>
+          <button class="hamburger">&#9776;</button>
+	  <button class="cross">&#215;</button>
+          </div>
            <jdoc:include type="modules" name="position-12" />
           <div class="clear"></div>
          </div>
+         
 
          <div class="slider-shop-site">
            <jdoc:include type="modules" name="position-13" />
