@@ -13,6 +13,9 @@ defined('_JEXEC') or die;
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"  type="text/javascript"></script>
     <script src="/media/system/js/hamburger.js" type="text/javascript"></script>
     <script src="/media/system/js/pushy.js" type="text/javascript"></script>
+    <script  src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/hamburger_oborudovanie.js" type="text/javascript"></script>
+    <script  src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/hamburger_uslugi.js" type="text/javascript"></script>
+    
     
     <?php
       $lang =& JFactory::getLanguage();
@@ -728,11 +731,28 @@ if($id==575) {?>
 
     <div class="telo">
          <div class="top-menu">
+         
          <div class="head_button">
           <p>Меню</p>
           <button class="hamburger">&#9776;</button>
 	  <button class="cross">&#215;</button>
+	  </div>
+          
+          <div class="head_button_uslugi">
+          <p>Услуги компании</p>
+          <button class="hamburger_uslugi">&#9776;</button>
+	  <button class="cross_uslugi">&#215;</button>
+	  </div>
+          
+         <div class="head_button_oborudovanie">
+          <p>Оборудование</p>
+          <button class="hamburger_oborudovanie">&#9776;</button>
+	  <button class="cross_oborudovanie">&#215;</button>
           </div>
+          
+          
+          </div>
+          
            <jdoc:include type="modules" name="position-12" />
           <div class="clear"></div>
          </div>

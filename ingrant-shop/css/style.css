@@ -1428,6 +1428,11 @@ li.item-443 {
   width: 30px;
   text-align: center;
 }
+@media screen and (min-width : 802px){
+  .telo {
+    background: url('../images/top-menu-bg.png');
+  }
+}
 
 @media screen and (min-width : 802px) and  (max-width: 1268px) {
   .header {
