@@ -1,14 +1,17 @@
-@media screen and (min-width : 770px) and (max-width : 1024px){
-   .menu-top{
-     display:table-row !important;
-  }
-  .vertical_button{
-    display:none !important;
-  }
-  .menu-left{
+.menu-left{
     display: block !important;
   }
   
+@media screen and (min-width : 802px){
+  .menu-top{
+     display:table-row !important;
+  }
+  .vertical_button, .hamburger{
+    display:none !important;
+  }
+   .top-menu{
+    display:block;
+  }
 }
 
 @media screen and (min-width : 769px) and (max-width : 801px){
@@ -36,6 +39,9 @@
   }
   .kontentik {
     width: 95%;
+  }
+  .menu-left{
+    display: none;
   }
   #material_table {
     width: 80%;
@@ -67,11 +73,17 @@
     height: 180px;
   }
   .left-td {
-    width: 20%;
+   width: 5%;
+  display: none;
   }
   .left-menu {
     width: 100%;
   }
+  
+   .menu-left{
+    display: none;
+  }
+  
   .NivoSzakiSlider .nivoSlider {
     width: 90% !important;
     float: left;
@@ -226,9 +238,7 @@ menu-top > li > span > ul > li.active, .menu-top > li > span > ul > li:hover {
 }
   
   /*конец стилей гамбургера горизотнтального*/
-  .left-td {
-    width: 5%;
-  }
+  
   iframe {
     display: none;
   }
@@ -248,6 +258,7 @@ menu-top > li > span > ul > li.active, .menu-top > li > span > ul > li:hover {
   }
   .left-td {
     width: 20%;
+    display:none;
   }
   .left-menu {
     width: 100%;
@@ -272,6 +283,7 @@ menu-top > li > span > ul > li.active, .menu-top > li > span > ul > li:hover {
   .custom_telefon {
     width: 33%;
   }
+   
   .custom_adress {
     width: 33%;
   }
@@ -287,8 +299,6 @@ menu-top > li > span > ul > li.active, .menu-top > li > span > ul > li:hover {
     max-width: 100%;
     min-width: 100%;
 }
-  
-  
 /*начало стилей гамбургера горизотнтального*/
 .head_button {
     width: 50%;
@@ -408,6 +418,7 @@ menu-top > li > span > ul > li.active, .menu-top > li > span > ul > li:hover {
   /*конец стилей гамбургера горизотнтального*/
   .left-td {
     width: 5%;
+    display:none;
   }
   .right-td {
     padding-left: 10px;
@@ -415,7 +426,7 @@ menu-top > li > span > ul > li.active, .menu-top > li > span > ul > li:hover {
   .item-page {
     margin-right: 25px;
   }
-  html, body, #mapDiv {
+  html  body  #mapDiv {
     display: none;
   }
   iframe {
@@ -435,8 +446,13 @@ menu-top > li > span > ul > li.active, .menu-top > li > span > ul > li:hover {
     width: 100%;
     height: 180px;
   }
+   .menu-left{
+    display: none;
+  }
+  
   .left-td {
     width: 20%;
+  display:none;
   }
   .left-menu {
     width: 100%;

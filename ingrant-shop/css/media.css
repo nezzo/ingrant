@@ -312,6 +312,37 @@
     width: 100%;
     padding-right: 3%;
 }
+.rsform {
+    width: 100%;
+    right: 95px;
+    position: relative;
+    top: 143px;
+    background-color: #D2D2D2;
+}
+
+#tabs-4 {
+    width: 60%;
+}
+#divwin_buy .rsform {
+  position: relative;
+  right: 30%;
+  top: 145px;
+  width: 100%;
+  padding-right: 10%;
+}
+.closeButton {
+    position: relative;
+    left: 72%;
+    top: 165px;
+    width: 35px;
+}
+#divwin_buy .closeButton {
+    width: 35px;
+    position: relative;
+    z-index: 20;
+    left: 75%;
+    top: 170px;
+}
 
   
   
@@ -712,6 +743,37 @@ div[data="0"] + div + div + div + div + div + div + div {
     margin-bottom: 14px;
     width: 50%;
 }
+.rsform {
+    width: 100%;
+    right: 95px;
+    position: relative;
+    top: 143px;
+    background-color: #D2D2D2;
+}
+
+#tabs-4 {
+    width: 60%;
+}
+#divwin_buy .rsform {
+  position: relative;
+  right: 30%;
+  top: 145px;
+  width: 100%;
+  padding-right: 10%;
+}
+.closeButton {
+    position: relative;
+    left: 72%;
+    top: 165px;
+    width: 35px;
+}
+#divwin_buy .closeButton {
+    width: 35px;
+    position: relative;
+    z-index: 20;
+    left: 75%;
+    top: 170px;
+}
    
 }
 
@@ -1109,6 +1171,37 @@ div[data="0"] + div + div + div + div + div + div + div {
     margin-bottom: 14px;
     width: 65%;
 }
+.rsform {
+    width: 100%;
+    right: 95px;
+    position: relative;
+    top: 143px;
+    background-color: #D2D2D2;
+}
+
+#tabs-4 {
+    width: 60%;
+}
+#divwin_buy .rsform {
+  position: relative;
+  right: 30%;
+  top: 145px;
+  width: 100%;
+  padding-right: 10%;
+}
+.closeButton {
+    position: relative;
+    left: 72%;
+    top: 165px;
+    width: 35px;
+}
+#divwin_buy .closeButton {
+    width: 35px;
+    position: relative;
+    z-index: 20;
+    left: 75%;
+    top: 170px;
+}
  
 }
 
@@ -1505,6 +1598,38 @@ div[data="0"] + div + div + div + div + div + div + div + div + div + div + div 
     margin-bottom: 14px;
     width: 80%;
 }
+.rsform {
+    width: 100%;
+    right: 95px;
+    position: relative;
+    top: 143px;
+    background-color: #D2D2D2;
+}
+#tabs-2 {
+    display: none;
+}
+#tabs-4 {
+    width: 60%;
+}
+#divwin_buy .rsform {
+  position: relative;
+  right: 30%;
+  top: 145px;
+  width: 101%;
+}
+.closeButton {
+    position: relative;
+    left: 68%;
+    top: 165px;
+    width: 35px;
+}
+#divwin_buy .closeButton {
+    width: 35px;
+    position: relative;
+    z-index: 20;
+    left: 70%;
+    top: 170px;
+}
   
 }
 
@@ -1550,7 +1675,7 @@ div[data="0"] + div + div + div + div + div + div + div + div + div + div + div 
     
   }
   .spec-predlog {
-    margin-top: 0px;
+    margin-top: 50px;
   }
 
   /*Меню*/
@@ -1935,6 +2060,25 @@ div[data="0"] + div + div + div + div + div + div + div + div + div + div + div 
 }
 #tabs-4 {
     width: 60%;
+}
+#divwin_buy .rsform {
+  position: relative;
+  right: 75%;
+  top: -680px;
+  width: 95%;
+}
+.closeButton {
+    position: relative;
+    left: 68%;
+    top: 165px;
+    width: 35px;
+}
+#divwin_buy .closeButton {
+    width: 35px;
+    position: relative;
+    z-index: 20;
+    left: 18%;
+    top: -660px;
 }
 
 }
