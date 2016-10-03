@@ -1738,7 +1738,7 @@ div[data="0"] + div + div + div + div + div + div + div + div + div + div + div 
   height: 50px;
   line-height: 50px;
   position: relative;
-  right: 40%;
+  right: 37%;
   display: block;
   float: right;
   font-size: 10px;
@@ -1913,7 +1913,7 @@ div[data="0"] + div + div + div + div + div + div + div + div + div + div + div 
     width: 100% !important;
 }
 .trybka {
-    width: 150px;
+    width: 160px;
 }
 .trybka > p > span {
     font-size: 12px;
@@ -1969,9 +1969,9 @@ div.dl-price-cont {
 .browse-view .product {
     padding-left: 0;
     padding-right: 0;
-    width: 60%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 70%;
+    height: auto;
+    
 }
 .browse-view .row {
     width: 335px;
@@ -1988,6 +1988,8 @@ div.dl-price-cont {
 .prod_pl_list {
     width: 85% !important;
     height: 230px !important;
+    position: relative;
+    right: 5%;
 }
 .prod_pl_list .product_s_desc_plitka {
     z-index: 10;
@@ -2035,24 +2037,25 @@ div[data="0"] + div + div + div + div + div + div + div + div + div + div + div 
 }
 .productdetails-view.productdetails img {
     width: 100%;
+    height: auto;
 }
 .pozwonit {
     position: relative;
     left: -10px;
     margin-bottom: 14px;
-    width: 90%;
+    width: 45%;
 }
 .productdetails .addtocart-area {
     float: right;
-    width: 110px;
+    width: 45%;
     position: relative;
     right: 15px;
 }
 .rsform {
     width: 100%;
-    right: 95px;
+    right: 115px;
     position: relative;
-    top: 143px;
+    top: 80px;
     background-color: #D2D2D2;
 }
 #tabs-2 {
@@ -2063,22 +2066,36 @@ div[data="0"] + div + div + div + div + div + div + div + div + div + div + div 
 }
 #divwin_buy .rsform {
   position: relative;
-  right: 75%;
+  right: 67%;
   top: -680px;
-  width: 95%;
+  width: 92%;
 }
 .closeButton {
     position: relative;
-    left: 68%;
-    top: 165px;
+    left: 60%;
+    top: 100px;
     width: 35px;
 }
 #divwin_buy .closeButton {
     width: 35px;
     position: relative;
     z-index: 20;
-    left: 18%;
+    left: 22%;
     top: -660px;
 }
+.left-td {
+    position: relative;
+    left: 4%;
+  }
+    .width40 {
+      width: 100%;
+  }
+  .floatright, span.floatright {
+      float: left;
+  }
+  .width56 {
+    width: 100%;
+  }
+ 
 
 }
